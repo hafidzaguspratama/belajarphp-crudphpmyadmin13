@@ -1,0 +1,44 @@
+nav {
+ display:block;
+ background-color: white;
+
+
+ }
+
+ nav ul {
+list-style-type:none;
+border: 2px solid #89253e;
+padding-bottom: 50px;
+
+ }
+
+ nav ul li {
+ float:right;
+
+ }
+ nav li a {
+ padding:15px 30px ;
+ display:block;
+ color:black;
+ font-size:14px;
+ text-decoration:none;
+ font-weight:bold;
+ border-left: 2px solid #89253e ;
+ border-right: 2px solid #89253e ;
+
+ }
+ nav .active a,
+ nav li:hover a {
+ background-color:#89253e;
+ color: white;
+ 
+ }
+
+ /*nav:after, nav:before {
+ content:'';
+ display:table;
+ }
+ nav:after {
+ clear:both;*/
+
+ }

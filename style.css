@@ -1,0 +1,88 @@
+body {
+font-family:arial;
+font-size:14px;
+line-height:22px;
+}
+
+.container {
+width:900px;
+margin:0 auto;
+}
+
+h1 {
+ border-bottom:1px solid #ddd;
+ margin-bottom:20px;
+ }
+
+ table {
+ border-collapse:collapse;
+ border-spacing:0;
+ margin:20px 0;
+ }
+
+ table th{ 
+ background: #89253e;
+ color: white;
+ padding: 2px 4px;
+ border:1px solid #ddd;
+ width: 300px;
+ 	}
+ table td {
+ padding: 20px 4px;
+ border:1px solid #ddd;
+ width: 200px;
+
+ }
+
+ td img {
+ max-width:75px;
+ max-height:50px;
+ }
+
+ form {
+ margin:20px 0;
+padding: 0px 70px;
+ }
+
+ .input, .submit {
+ margin:10px 0;
+
+ }
+
+ .input label {
+ display:inline-block;
+ width:150px;
+ }
+
+ .input select,
+ .input input[type="text"] {
+ border-radius:10px;
+ border:1px solid #ddd;
+ padding: 2px 4px;
+ width: 600px;
+ height: 30px;
+ }
+
+ .submit input[type="submit"] {
+ margin-left:75%;
+ border:0;
+ border-radius:5px;
+ background-color:green;
+ color:#fff;
+ padding: 5px;
+ cursor:pointer;
+ width: 180px;
+ height: 30px;
+ 
+ }
+
+.kategori {
+	background-color: green;
+	color: white;
+	width: 200px;
+	height: 30px;
+}
+
+.file{
+	background-color: red;
+}
